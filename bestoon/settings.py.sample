@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'web',
+    'captcha',
+
 ]
 
 MIDDLEWARE = [
@@ -119,3 +121,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+site-key=6Lf7cr0UAAAAAFz4ybq6hpc7IHkxq1r7j_kS-ej7
